@@ -1,0 +1,22 @@
+#   Logs:   
+#   Question:
+#   1. HTTP协议中的各种方法，CONNECT的用法？
+#   2. 状态码501, 400是什么意思？
+#   3. HTTP header中的Connection属性具体如何使用？
+#   4. Post方法中的Content-Length字段的值是如何计算的？
+#   5. 'Accept-Encoding': 完整的有哪些???
+#   6. do_CONNECT()中的缓冲区到底设多大比较好呢???
+#   Reference:
+#   1. Python网络编程基础, basichttpdocthread.py
+#   2. GAppProxy中的proxy.py
+#   3. http://docs.python.org/library/basehttpserver.html
+#   4. http://docs.python.org/library/urllib2.html
+#   5. http://docs.python.org/library/urllib.html
+#   6. file:///C:/Users/clzqwdy/Software/Python2.5/Doc/lib/module-urlparse.html
+#   7. http://docs.python.org/library/urllib2.html#examples
+#   8. http://docs.python.org/library/urllib2.html#urllib2.URLError
+#   9. Python网络编程基础
+#   10.http://goo.gl/DgLY   # still no use!
+#   11.GAppProxy中的common.py
+#   12.http://goo.gl/Vpsv
+#   13.file:///C:/Users/clzqwdy/Software/Python2.6/Doc/library/ssl.html

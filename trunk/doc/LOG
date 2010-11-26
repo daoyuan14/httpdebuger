@@ -1,0 +1,18 @@
+#   2010-04-21: achieve basic framework. 跑的时候遇到了一大堆问题，写得很郁闷！
+#   2010-04-28: achieve: 用户输入任何网址，都重定向到百度（没有设置浏览器代理）
+#   2010-05-28: 一直困扰于：urllib2.urlopen(request) -- BadStatusLine的错误
+#   2010-05-29: 在设置浏览器代理的情况下，用户输入任何网址，都重定向到相应的网址
+#   2010-05-30: do_GET()中完整信息返回了，主要有Response Header了
+#               重写了异常处理部分
+#               遍历增加request headers，而不是自己预先定义的了
+#               这样，do_GET()就基本写完了
+#   2010-05-31: Post已经成功，至少豆瓣已经接受我提交的数据了，但是response不是能正确执行,所以页面无法显示
+#               但校内post数据很正常
+#               add do_CONNECT(), 未加前一访问https的网页，连接就断掉了
+#   2010-06-01: 尝试了一下午的do_CONNECT()方法，无果，晚上郁闷地看《品三国》了
+#   2010-06-03: add _read_write(), do_CONNECT()成功了，pyadproxy拯救了我，其实是TinyHTTPProxy.py的代码
+#   2010-06-08: 给CONNECT()增加了self.send_response(200, 'Success')
+#               为了网络安全的课题，更名为HttpDebuger.py，主要把https截获下来！
+#   2010-06-09: 成功实现了对HTTPS的可信劫持，即man in the middle! 参考了tohrd.py
+2010-11-26
+1. 

@@ -1,0 +1,16 @@
+===========================================================
+httpdebuger - HTTP-Based Analysis and Control System
+===========================================================
+
+  http://code.google.com/p/httpdebuger/
+
+  * Written and maintained by Daoyuan WU <clzqwdy@gmail.com>.
+  * 2010-06-23: Finished developing HttpDebuger v0.1.0
+  * 2010-08-25: Release HttpDebuger v0.1.0 to Open Source
+  * Released under terms and conditions of the Apache License, version 2.0. 
+
+--------------------
+What is httpdebuger?
+--------------------
+
+HttpDebuger is a HTTP-Based Analysis and Control System used for Debugging Web Apps.
